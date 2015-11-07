@@ -1,5 +1,4 @@
 var express = require('express');
-var instafeed = require('instafeed.js');
 var router = express.Router();
 
 

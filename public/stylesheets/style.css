@@ -1,8 +1,53 @@
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 13px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+  text-decoration: none;
+}
+
+h1, h3, p {
+	color: #16212C;
+}
+
+button {
+	background: #16212C;
+	color: #fff;
+	border: none;
+	border-radius: 2px;
+	padding: 6px 8px;
+	margin: 0 10px;
+
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+	background: salmon;
+}
+
+#main {
+	width: 100%;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+#instafeed {
+	margin: 35px 0 ;
+}
+
+.feed-element img {
+	background-color: #fff;
+	max-width: 22.222%;
+	height: auto;
+	margin: 10px;	
 }
